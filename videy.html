@@ -3,43 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Klik dua kali</title>
+    <title>VIYEAY</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
+<body>
+ 
 <header class="header">Videy</header>
 
 <main class="container">
 
-  <div class="video-wrapper">
+    <div class="video-wrapper">
 
-    <video id="video" controls playsinline>
-        <source src="https://cdn.aceimg.com/q5cIaCehH.mp4" type="video/mp4">
-    </video>
+        <!-- VIDEO ACAK AKAN MUNCUL DI SINI -->
+        <div id="tempat-video"></div>
 
-    <button id="videoOverlay" aria-label="overlay">
-        <span class="overlay-text"></span>
-    </button>
+        <!-- OVERLAY -->
+        <div id="videoOverlay">
+            <span>▶</span>
+        </div>
 
-    <button class="icon-btn wa" onclick="joinWhatsAppGroup()">
-        <img src="whatsapp.png">
-        <span>Full Video</span>
-    </button>
-
-    <button class="icon-btn fb" onclick="openFacebookPage()">
-        <img src="facebook.png">
-        <span>Video Lainnya</span>
-    </button>
-
-  </div>
-
-  <button class="share-btn" id="shareBtn">📁 Full Video Viral</button>
 
 </main>
 
 <script src="main.js"></script>
+    
 </body>
 </html>
-
-
